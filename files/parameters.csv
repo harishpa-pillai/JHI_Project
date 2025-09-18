@@ -1,0 +1,6 @@
+name,value
+entityID,rs:DUMMYLEI12345678910.CON
+refPeriod,31/12/2027
+baseCurrency,iso123:EUR
+decimalsInteger,0
+decimalsMonetary,-3

@@ -1,0 +1,4 @@
+Test Scenario 2 - Validate [Yes/No] Type.
+
+Bug:
+In file y_07.01.csv, column "c0080" contains values other than 'Yes' or 'No'.

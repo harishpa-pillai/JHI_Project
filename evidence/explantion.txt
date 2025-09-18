@@ -1,0 +1,65 @@
+Explantion :
+************
+
+Language used - Python
+Test Framework used - pytest
+
+
+Automated Test Approach:
+************************
+
+The test framework is designed to automatically read all relevant report files from the "files" directory, specifically targeting files with names that begin with the pattern y_*.
+
+Each of these input report files will be used to run a test that checks for duplicate columns.
+
+The tests are parameterized based on the input file names. This means that for every report file detected, a separate instance of the test will be executed.
+
+For example, if there are 5 report files matching the pattern, the test case will run 5 times—once per file—and the test results will show five distinct parameterized test executions.
+
+********************************************************************************************************************************************************************************
+
+Test 1
+
+Test Scenario 1 - No column can be reported twice.
+
+Test name in code : "test_for_duplicate_columns"
+
+Logic: 
+For each input file, data from each column will be read and compared against all other columns within the same file to identify any duplicates.
+
+Execution Results : Pass ( for all the relevant input files provided)
+
+*******************************************************************************************************************************************************************************
+
+Test 2
+
+Test Scenario 2 - Validate [Yes/No] Type.
+
+Test name in code : test_file_column_data_types
+
+Logic :
+
+For each input report file, the test will reference the corresponding Data Definition File to identify any columns defined with the type "[Yes/No]". If such columns are present, the test will verify that the corresponding columns in the report file conform to the expected [Yes/No] data format.
+
+Note : 
+
+This test is designed to validate the data types of ALL columns in the report file based on the associated data definition. 
+The framework is designed to automatically handle any updates to the data definition or report file.
+
+Currently, the test is set up to validate only columns with the data type [Yes/No].
+To validate additional columns, please provide the specific column name(s) as input to the test.
+For detailed instructions, refer to the code documentation.
+
+Execution Results :
+Failed = 1, File name : "y_07.01.csv", Column - c0080, does not confirm the [Yes/No] type.
+
+
+
+
+
+
+
+
+
+
+

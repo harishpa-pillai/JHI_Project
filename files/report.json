@@ -1,0 +1,8 @@
+{
+    "documentInfo": {
+        "documentType": "https://whatever.org/2021/xbrl-csv",
+        "extends": [
+            "http://www.notimportant.json"
+        ]
+    }
+}
