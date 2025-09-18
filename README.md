@@ -1,3 +1,5 @@
+## How to execute the tests   
+
 #### Clone the repository
 - Please clone this repository to your local machine. Command: git clone git clone [repo-url]"   
 
