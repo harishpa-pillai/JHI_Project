@@ -1,4 +1,4 @@
-Explantion :
+Explanation :
 ************
 
 Language used - Python
