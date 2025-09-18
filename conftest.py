@@ -77,6 +77,5 @@ def data_types_to_validate():
     # Pass data types to verify as a list.
     # Eg: data_types = ["ALPHANUMERICAL", "COUNTRY", "DATE",]
     # data_type = None for verifying all supported data types.
-    # data_types = ["[Yes/No]"]
-    data_types = None
+    data_types = ["[Yes/No]"]
     return data_types
