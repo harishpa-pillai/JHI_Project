@@ -39,7 +39,7 @@ Test name in code : test_file_column_data_types
 
 Logic :
 
-For each input report file, the test will reference the corresponding Data Definition File to identify any columns defined with the type "[Yes/No]". If such columns are present, the test will verify that the corresponding columns in the report file conform to the expected [Yes/No] data format.
+For each input report file, the test will reference the corresponding Data Definition File to identify any columns defined with the type "[Yes/No]". If such columns are present, the test will verify that the corresponding columns in the report file confirm to the expected [Yes/No] data format.
 
 Note : 
 
